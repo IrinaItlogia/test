@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="fancybox-master/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-content">
+				<div class="header-logo">
+					<a href="/">
+						<img src="img/logo.png" alt="">
+					</a>
+				</div>
+				<div class="header-menu">
+					<ul>
+						<span class="close-menu">&times;</span>
+						<li><a href="#">Пиццы</a></li>
+						<li><a href="#">Напитки</a></li>
+						<li><a href="#">Доставка и оплата</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="header-buttons">
+					<div class="header-cart">
+						<a href="#">
+							<img src="img/cart.png" alt="">
+						</a>
+					</div>
+					<div class="header-menu-button">
+						<img src="img/menu.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="block1"> 
+				<img src="img/pizza_big.png" class="pizza wow animate__fadeInRight" alt="Самая вкусная пицца">
+				<h1 class="text-brown wow animate__fadeInDown">
+					Самая вкусная пицца в мире <br>
+					<span class="text-orange">только в Pizza Chef</span>
+				</h1>
+				<div class="advantages">
+					<div class="advantage wow animate__fadeInUp" data-wow-delay="0.3s">
+						<div class="advantage-img"><img src="img/hop.png" alt=""></div>
+						<div class="advantage-text">
+							<span>Лучшее тесто</span>
+							Мы создаем тесто только из отборной итальянской муки наивысшего качества
+						</div>
+					</div>
+					<div class="advantage wow animate__fadeInUp" data-wow-delay="0.3s">
+						<div class="advantage-img"><img src="img/kitchen-pack.png" alt=""></div>
+						<div class="advantage-text">
+							<span>Лучшие повара</span>
+							Пиццы готовят самые профессиональные итальянские повара
+						</div>
+					</div>
+					<div class="advantage wow animate__fadeInUp" data-wow-delay="0.6s">
+						<div class="advantage-img"><img src="img/seo-and-web.png" alt=""></div>
+						<div class="advantage-text">
+							<span>Гарантия качества</span>
+							Наша пиццерия получила множество наград и признаний по всему миру
+						</div>
+					</div>
+					<div class="advantage wow animate__fadeInUp" data-wow-delay="0.6s">
+						<div class="advantage-img"><img src="img/holidays.png" alt=""></div>
+						<div class="advantage-text">
+							<span>Отборные рецепты</span>
+							Мы используем рецепты от мировых лидеров в изготовлении пиццы
+						</div>
+					</div>
+				</div>
+				<a href="#menu" class="button wow animate__bounceIn" data-wow-delay="1s">Выбрать пиццу</a>
+			</div>
+			<div class="block2" id="menu">
+				<div class="title text-brown wow animate__fadeIn" data-wow-delay="1s">Выберите свою любимую пиццу</div>
+				<div class="products-grid">
+					<div class="product wow animate__slideInUp" data-wow-delay="1.1s">
+						<a href="img/1.png" data-fancybox="gallery" class="image-product">
+							<img src="img/1.png" alt="Мясная Делюкс">
+						</a>
+						<div class="product-title">Мясная Делюкс</div>
+						<div class="product-filling">Пепперони, лук, бекон, томатная паста, колбаски, перец, грибы, соус чили, ананасы</div>
+						<button class="button">В корзину</button>
+					</div>
+					<div class="product wow animate__slideInUp" data-wow-delay="1.2s">
+						<a href="img/2.png" data-fancybox="gallery" class="image-product">
+							<img src="img/2.png" alt="Морская Премиум">
+						</a>
+						<div class="product-title">Морская Премиум</div>
+						<div class="product-filling">Перец, сыр, креветки, кальмары, мидии, лосось</div>
+						<button class="button">В корзину</button>
+					</div>
+					<div class="product wow animate__slideInUp" data-wow-delay="1.3s">
+						<a href="img/3.png" data-fancybox="gallery" class="image-product">
+							<img src="img/3.png" alt="Бекон и сосиски">
+						</a>
+						<div class="product-title">Бекон и сосиски</div>
+						<div class="product-filling">Бекон, сыр, сосиски, ананас, томатная паста</div>
+						<button class="button">В корзину</button>
+					</div>
+					<div class="product wow animate__slideInUp" data-wow-delay="1.4s">
+						<a href="img/4.png" data-fancybox="gallery" class="image-product">
+							<img src="img/4.png" alt="Куриная Делюкс">
+						</a>
+						<div class="product-title">Куриная Делюкс</div>
+						<div class="product-filling">Курица, ананас, сыр, Пепперони, соус для пиццы, томатная паста</div>
+						<button class="button">В корзину</button>
+					</div>
+					<div class="product wow animate__slideInUp" data-wow-delay="0.1s">
+						<a href="img/5.png" data-fancybox="gallery" class="image-product">
+							<img src="img/5.png" alt="Барбекю Премиум">
+						</a>
+						<div class="product-title">Барбекю Премиум</div>
+						<div class="product-filling">Свинина BBQ, соус Барбекю, сыр, курица, соус для пиццы, соус чили</div>
+						<button class="button">В корзину</button>
+					</div>
+					<div class="product wow animate__slideInUp" data-wow-delay="0.2s">
+						<a href="img/6.png" data-fancybox="gallery" class="image-product">
+							<img src="img/6.png" alt="Пепперони Дабл">
+						</a>
+						<div class="product-title">Пепперони Дабл</div>
+						<div class="product-filling">Пепперони, сыр, колбаса 2 видов: обжаренная и вареная</div>
+						<button class="button">В корзину</button>
+					</div>
+					<div class="product wow animate__slideInUp" data-wow-delay="0.3s">
+						<a href="img/7.png" data-fancybox="gallery" class="image-product">
+							<img src="img/7.png" alt="Куриное трио">
+						</a>
+						<div class="product-title">Куриное трио</div>
+						<div class="product-filling">Жареная курица, Тушеная курица, Куриные наггетсы, перец, сыр, грибы, соус для пиццы</div>
+						<button class="button">В корзину</button>
+					</div>
+					<div class="product wow animate__slideInUp" data-wow-delay="0.4s">
+						<a href="img/8.png" data-fancybox="gallery" class="image-product">
+							<img src="img/8.png" alt="Сырная">
+						</a>
+						<div class="product-title">Сырная</div>
+						<div class="product-filling">Сыр Джюгас, Сыр с плесенью, Сыр Моцарелла, Сыр секретный</div>
+						<button class="button">В корзину</button>
+					</div>
+				</div>
+			</div>
+			<div class="block3">
+				<img src="img/pizzzzza.png" class="pizza wow animate__backInRight" data-wow-delay="0.6s" alt="">
+				<div class="block3-content">
+					<div class="block3-text wow animate__backInRight">
+						<div class="title text-brown">
+							<span class="text-orange">Хватит думать!</span><br>
+							Доставим заказ за 30 минут!
+						</div>
+						<p>Мы гарантированно доставим вашу пиццу за 30 минут с момента оформления заказа. Если мы опоздаем даже на 1 минуту - вы получаете весь заказ бесплатно и ваучер на скидку на следующий заказ. Мы гордимся нашим сервисом и сделаем все, чтобы наш клиент был доволен и не остался голодный!</p>
+					</div>
+					<div class="block3-form wow animate__backInRight" id="block3-form" data-wow-delay="0.3s">
+						<form id="form">
+							<div class="input-block">
+								<input type="text" name="form-name" id="name" placeholder="Ваше имя">
+								<div class="error-input">Имя обязательно</div>
+							</div>
+							<div class="input-block">
+								<input type="text" name="form-address" id="address" placeholder="Адрес доставки">
+								<div class="error-input">Адрес обязателен</div>
+							</div>
+							<div class="input-block">
+								<input type="text" name="form-phone" placeholder="Телефон" id="phone">
+								<div class="error-input">Телефон обязателен</div>
+							</div>
+							<button type="submit" class="button" id="button">Оформить заказ</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-logo"><img src="img/logo.png" alt=""></div>
+				<div class="footer-copyright">Все права защищены 2020</div>
+				<div class="footer-block"></div>
+			</div>
+		</div>
+	</footer>
+
+	<div id="formSent" class="modal-wrap">
+		<div class="modal-content">
+			<div class="modal-close">&times;</div>
+			<div class="modal-text">Сообщение отправлено!</div>
+		</div>
+	</div>
+	
+	<div id="loader">
+		<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+	</div>
+
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="fancybox-master/jquery.fancybox.min.js"></script>
+	 <script src="js/wow.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
